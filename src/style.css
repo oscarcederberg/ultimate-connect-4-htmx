@@ -1,0 +1,55 @@
+.alpha-boards .square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  height: 24px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 24px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 48px;
+  height: 48px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 48px;
+}
+
+.board-col {
+  display: grid;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.alpha-boards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow-x: scroll;
+  width: 100%
+}
+
+.boards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 740px;
+}
